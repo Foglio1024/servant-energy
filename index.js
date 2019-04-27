@@ -23,7 +23,6 @@ class ServantEnergy
         this.mod.hook('S_SPAWN_SERVANT', 2, e =>
         {
             if (!mod.game.me.is(e.owner)) return;
-            console.log(`Servant spawned with id ${e.gameId}`);
             this.myServant = e.gameId;
             this.currServantEnergy = e.energy;
             this.mod.setTimeout(() => this.changeEnergy(), 1000);
@@ -71,7 +70,6 @@ class ServantEnergy
     changeEnergy()
     {
         if (this.isGathering) return;
-        console.log(`Changing energy to ${this.currServantEnergy}`);
         this.mod.send('S_SHOW_HP', 3, {
             gameId: this.myServant,
             curHp: this.currServantEnergy,
