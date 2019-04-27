@@ -1,0 +1,13 @@
+{
+	"files": {
+		"index.js": "5ef5e9b8c58bf7a8a27436e9ccd4f64a9088eff5d97d451a1c23cbcd08bcfb0e",
+		"module.json": "5c3f54962b4993f35ba4b4091803ca35fcf8592773a14f31720696bf96213d86"
+	},
+	"defs": {
+		"S_CHANGE_SERVANT_ENERGY": 1,
+		"S_COLLECTION_PICKEND": 2,
+		"S_COLLECTION_PICKSTART": 2,
+		"S_SHOW_HP": 3,
+		"S_SPAWN_SERVANT": 2
+	}
+}

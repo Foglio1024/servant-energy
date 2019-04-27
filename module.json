@@ -1,0 +1,12 @@
+{
+    "servers": ["https://raw.githubusercontent.com/Foglio1024/servant-energy/master/"],
+	"supportUrl": "https://github.com/Foglio1024/servant-energy/issues",
+	"disableAutoUpdate": false,
+    "name" : "servant-energy",
+    "author" : "Foglio",
+    "description" : "Displays pet energy as HP bar above its head. Replaces pet gathering bar with red HP bar.",
+    "options": {
+		"niceName": "servant-energy",
+		"guiName": "Servant Energy"
+	}
+}
