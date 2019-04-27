@@ -51,6 +51,7 @@ class ServantEnergy
             if (!this.isGathering) return;
             let now = new Date().getTime();
             let diff = now - time;
+            if(diff < 0) diff = 0;
             currVal = Number(currVal) + diff > duration ? duration : Number(currVal) + diff;
             time = now;
             this.mod.send('S_SHOW_HP', 3, {
